@@ -6,5 +6,8 @@ class Song
     @name = name
     @album = album
   end
+end
 
+class Album
+  attr_accessor :name, :songs
 end
